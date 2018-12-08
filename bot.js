@@ -1,4 +1,4 @@
-var socket = require('socket.io-client')('http://localhost:7305');
+const socket = require('socket.io-client')('http://localhost:7305');
 const { exec } = require('child_process');
 
 socket.on('connect', function(){
