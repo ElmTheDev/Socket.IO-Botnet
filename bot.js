@@ -1,8 +1,10 @@
 const socket = require('socket.io-client')('http://localhost:7305');
 const { exec } = require('child_process');
 
+let authKey = "BoT";
+
 socket.on('connect', function(){
-	socket.emit('authenticate', 'BoT', process.platform, false);
+	socket.emit('authenticate', authKey, process.platform, false);
 });
 
 socket.on('data', function(data)
